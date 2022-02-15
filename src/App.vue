@@ -5,11 +5,11 @@ import HomeView from "./views/HomeView.vue";
 
 <template>
   <div class="p-14">
-    <RouterLink class="flex justify-center text-4xl text-yellow-700" to="/"> Pokemon picker
+    <RouterLink class="flex justify-center text-4xl text-yellow-700" to="/">
+      Pokemon picker
     </RouterLink>
   </div>
-  <RouterView/>
+  <RouterView />
 </template>
 
-<style>
-</style>
+<style></style>

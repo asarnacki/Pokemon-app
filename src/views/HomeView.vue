@@ -13,8 +13,9 @@
       v-for="(pokemon, idx) in filteredPoke"
       :key="idx"
     >
-    <router-link :to="`/about/${uldIdLookup[pokemon.name]}`">
-      {{ pokemon.name }}</router-link>
+      <router-link :to="`/about/${uldIdLookup[pokemon.name]}`">
+        {{ pokemon.name }}</router-link
+      >
     </div>
   </div>
 </template>
